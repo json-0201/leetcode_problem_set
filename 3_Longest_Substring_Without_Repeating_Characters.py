@@ -26,7 +26,6 @@ class Solution:
             temp.append(s[index])
             index += 1
             
-
         return len(max(words, key=len))
 
 solution = Solution()
