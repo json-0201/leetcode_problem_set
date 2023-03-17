@@ -1,5 +1,8 @@
 class Solution:
     def removeDuplicates(self, nums: list) -> int:
+        # nums = creates a new list object
+        # nums[:] = updates original list elements
+        
         nums[:] = set(nums)
         nums.sort()
         
